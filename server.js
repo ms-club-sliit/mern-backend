@@ -16,6 +16,10 @@ mongoose.connection.once("open", () => {
   console.log("MongoDB Connected");
 });
 
+app.get("/", (req, res) => {
+  res.send("<h3>Employee Management API</h3>");
+});
+
 app.use("/api/employee", require("./routes/Employee.route"));
 
 app.listen(port, () => {
