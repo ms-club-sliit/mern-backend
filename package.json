@@ -1,0 +1,27 @@
+{
+  "name": "mern-backend",
+  "version": "1.0.0",
+  "description": "This is a simple backend application to get started with MERN stack development. This repository include some fundamental concepts like **Arrow functions**, and **Promises** inside the `javascript-basics` :open_file_folder:. The target :dart: is to implement a simple backend application with database connection and complete CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms-club-sliit/mern-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ms-club-sliit/mern-backend/issues"
+  },
+  "homepage": "https://github.com/ms-club-sliit/mern-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
